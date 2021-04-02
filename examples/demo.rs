@@ -1,4 +1,4 @@
-use nipper::Document;
+use nos::Document;
 use std::error::Error;
 use std::time::Instant;
 

@@ -1,42 +1,60 @@
 
-# Nipper
+# Nos
 
-> A crate for manipulating HTML with Rust.
+> A crate for manipulating HTML with Rust. (status: internal project)
 
-<div>
-  <!-- Crates version -->
-  <a href="https://crates.io/crates/nipper">
-    <img src="https://img.shields.io/crates/v/nipper.svg?style=flat-square"
-    alt="Crates.io version" />
-  </a>
-  <!-- Downloads -->
-  <a href="https://crates.io/crates/nipper">
-    <img src="https://img.shields.io/crates/d/nipper.svg?style=flat-square"
-      alt="Download" />
-  </a>
-  <!-- docs.rs docs -->
-  <a href="https://docs.rs/nipper">
-    <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square"
-      alt="docs.rs docs" />
-  </a>
+[comment]: <> (<div>)
 
-  <a href="https://travis-ci.com/github/importcjj/nipper">
-    <img src="https://travis-ci.com/importcjj/nipper.svg?branch=master" alt="travis ci" />
-  </a>
-</div>
+[comment]: <> (  <!-- Crates version -->)
+
+[comment]: <> (  <a href="https://crates.io/crates/nos">)
+
+[comment]: <> (    <img src="https://img.shields.io/crates/v/nos.svg?style=flat-square")
+
+[comment]: <> (    alt="Crates.io version" />)
+
+[comment]: <> (  </a>)
+
+[comment]: <> (  <!-- Downloads -->)
+
+[comment]: <> (  <a href="https://crates.io/crates/nos">)
+
+[comment]: <> (    <img src="https://img.shields.io/crates/d/nos.svg?style=flat-square")
+
+[comment]: <> (      alt="Download" />)
+
+[comment]: <> (  </a>)
+
+[comment]: <> (  <!-- docs.rs docs -->)
+
+[comment]: <> (  <a href="https://docs.rs/nos">)
+
+[comment]: <> (    <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square")
+
+[comment]: <> (      alt="docs.rs docs" />)
+
+[comment]: <> (  </a>)
+
+[comment]: <> (  <a href="https://travis-ci.com/github/importcjj/nos">)
+
+[comment]: <> (    <img src="https://travis-ci.com/importcjj/nos.svg?branch=master" alt="travis ci" />)
+
+[comment]: <> (  </a>)
+
+[comment]: <> (</div>)
 
 
-Nipper based on HTML crate html5ever and the CSS selector crate selectors. You can use the jQuery-like syntax to query and manipulate an HTML document quickly. **Not only can query, but also can modify**.
+Nos based on HTML crate html5ever and the CSS selector crate selectors. You can use the jQuery-like syntax to query and manipulate an HTML document quickly. **Not only can query, but also can modify**.
 
 
-![nipper-logo](./logo.jpg)
+![nos-logo](./logo.jpg)
 
 ## Example
 
 #### Extract the hacker news.
 
 ```rust
-use nipper::Document;
+use nos::Document;
 
 fn main() {
     let html = include_str!("../test-pages/hacker_news.html");

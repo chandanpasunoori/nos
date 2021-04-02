@@ -1,4 +1,4 @@
-use nipper::Document;
+use nos::Document;
 
 fn main() {
     let html = include_str!("../test-pages/hacker_news.html");

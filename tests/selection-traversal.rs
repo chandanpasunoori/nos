@@ -2,7 +2,7 @@ mod data;
 
 use data::doc;
 use data::docwiki;
-use nipper::Document;
+use nos::Document;
 
 #[test]
 fn test_select() {

@@ -1,4 +1,4 @@
-use nipper::Document;
+use nos::Document;
 
 fn main() {
     let document = Document::from(

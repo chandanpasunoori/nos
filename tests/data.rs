@@ -1,5 +1,5 @@
 #![allow(dead_code)]
-use nipper::Document;
+use nos::Document;
 
 pub fn doc() -> Document {
     include_str!("../test-pages/page.html").into()

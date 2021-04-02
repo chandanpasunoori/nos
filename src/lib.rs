@@ -11,7 +11,7 @@
 //! # Get started
 //!
 //! ```
-//! use nipper::Document;
+//! use nos::Document;
 //!
 //! let html = r#"<div>
 //!     <a href="/1">One</a>

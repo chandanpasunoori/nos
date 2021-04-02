@@ -1,6 +1,6 @@
 use lazy_static::lazy_static;
-use nipper::Document;
-use nipper::Selection;
+use nos::Document;
+use nos::Selection;
 use regex::Regex;
 use std::cmp::min;
 use std::collections::HashMap;

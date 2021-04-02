@@ -52,6 +52,27 @@ impl<'a> Selection<'a> {
         self.append_html(html)
     }
 
+    /// Appends each element before this element.
+    ///
+    /// This follows the same rules as `append`.
+    pub fn append_prev_sibling<T>(&mut self, html: T)
+        where
+            T: Into<StrTendril>,
+    {
+        let dom = parse_html!(html);
+        let mut i = 0;
+
+        for node in self.nodes() {
+            if i + 1 == self.size() {
+                node.append_prev_siblings_from_another_tree(dom.tree);
+                break;
+            } else {
+                node.append_prev_siblings_from_another_tree(dom.tree.clone());
+            }
+            i += 1;
+        }
+    }
+
     /// Replaces each element in the set of matched elements with
     /// the parsed HTML.
     /// It returns the removed elements.

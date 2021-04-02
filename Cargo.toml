@@ -1,6 +1,6 @@
 [package]
 name = "nos"
-version = "0.1.10"
+version = "0.1.11"
 description = "HTML manipulation with CSS seletors"
 license = "MIT/Apache-2.0"
 repository = "https://github.com/chandanpasunoori/nos"
