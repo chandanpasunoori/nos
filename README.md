@@ -1,7 +1,8 @@
 
 # Nos
 
-> A crate for manipulating HTML with Rust. (status: internal project)
+> A crate for manipulating HTML with Rust. (status: internal project) this is a fork of [nipper](https://crates.io/crates/nipper).
+> for any production use cases please use [nipper](https://crates.io/crates/nipper).
 
 [comment]: <> (<div>)
 
