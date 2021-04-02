@@ -1,12 +1,12 @@
 [package]
-name = "nipper"
-version = "0.1.9"
+name = "nos"
+version = "0.1.10"
 description = "HTML manipulation with CSS seletors"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/importcjj/nipper"
-documentation = "https://docs.rs/nipper/latest"
+repository = "https://github.com/chandanpasunoori/nos"
+documentation = "https://docs.rs/nos/latest"
 keywords = ["html", "css", "selector", "scraping", "crawler"]
-authors = ["importcjj <importcjj@gmail.com>"]
+authors = ["importcjj <importcjj@gmail.com>", "Chandan Pasunoori <chandanpasunoori@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 
